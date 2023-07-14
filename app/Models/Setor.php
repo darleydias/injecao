@@ -5,10 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class segment extends Model
+class Setor extends Model
 {
     use HasFactory;
-    protected $table = 'segment';
-    protected $primarykey = 'segment_id';
-    protected $fillable = ['segment_name'];
+    protected $table = 'setor';
+    protected $fillable = 'nome';
 }
